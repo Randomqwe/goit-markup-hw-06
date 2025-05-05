@@ -66,6 +66,108 @@ body {
 
 /* section-main */
 
+.section-main {
+  background: #2e2f42;
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/darkbg2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* background-position: 50px 30px; */
+  background-size: cover;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1158px) {
+  .section-main {
+    background: #2e2f42;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/officepople.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* background-position: 50px 30px; */
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.container-section-main-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 216px;
+  margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-section-main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container-section-main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+}
+
+.container-section-main-bnt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-section-main-bnt:hover,
+.container-section-main-bnt:focus {
+  background-color: #404bbf;
+}
+
 /* section-main */
 
 /* section-advantages */
